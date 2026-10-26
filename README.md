@@ -81,7 +81,7 @@ Los scripts generan por ejecución en la carpeta `outputs/`:
 * `animals_model.tflite` — Modelo optimizado para celulares.
 
 ### Métricas de Desempeño:
-| Fase / Conjunto | Época | Accuracy (Entrenamiento) | Pérdida (Loss) | Val Accuracy | Val Loss |
+| Fase | Época | Accuracy (Entrenamiento) | Pérdida (Loss) | Val Accuracy | Val Loss |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Fase 1: Feature Extraction (Inicio)** | 1 | 40.33 % | 2.9156 | 78.02 % | 1.4302 |
 | **Fase 1: Feature Extraction (Final)** | 12 | 90.55 % | 0.4028 | 88.40 % | 0.5033 |

@@ -6,7 +6,7 @@
 [![Cluster](https://img.shields.io/badge/Entrenado%20en-Clúster%20YUCA%20(UNISON)-005A9C)](http://acarus.uson.mx/)
 [![Netlify](https://img.shields.io/badge/Despliegue-Netlify-00C7B7?logo=netlify&logoColor=white)](https://superb-marzipan-f3e0b5.netlify.app)
 
-Proyecto de *Deep Learning* para clasificar **90 especies diferentes del reino animal** utilizando **Transferencia de Aprendizaje** con la arquitectura **MobileNetV2**. El entrenamiento se llevó a cabo en el **Clúster YUCA** y el modelo resultante fue desplegado en la web mediante **TensorFlow.js** y optimizado para dispositivos móviles con **TensorFlow Lite**.
+Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del reino animal** utilizando **Transferencia de Aprendizaje** con la arquitectura **MobileNetV2**. El entrenamiento se llevó a cabo en el **Clúster YUCA** y el modelo resultante fue desplegado en la web mediante **TensorFlow.js** y optimizado para dispositivos móviles con **TensorFlow Lite**.
 
 ---
 
@@ -54,10 +54,10 @@ Se utilizó **MobileNetV2** preentrenada en ImageNet, combinada con una cabeza d
 
 ## Resultados
 Los scripts generan por ejecución en la carpeta `outputs/`:
-* `grafica_acc_animales.png` — Curva de Accuracy (Fase 1 + Fase 2 con línea punteada naranja marcando el inicio del Fine-Tuning).
-* `grafica_loss_animales.png` — Curva de Pérdida (Fase 1 + Fase 2 con línea punteada naranja marcando el inicio del Fine-Tuning).
+* `grafica_acc_animales.png` — Curva de Accuracy con la métrica del inicio de Fine-Tuning 
+* `grafica_loss_animales.png` — Curva de Pérdida con la métrica del inicio de Fine-Tuning 
 * `matriz_de_confusion_animales.png` — Matriz de confusión de 90x90 clases evaluada sobre las 810 imágenes del conjunto de test.
-* `muestra_clases_animales.png` — Mosaico con 15 clases de ejemplo del dataset.
+* `muestra_clases_animales.png` — Muestra de 15 clases de ejemplo del dataset.
 * `animals_model.tflite` — Modelo optimizado para celulares.
 
 ### Métricas de Desempeño:
@@ -67,4 +67,4 @@ Los scripts generan por ejecución en la carpeta `outputs/`:
 | **Fase 1: Feature Extraction (Final)** | 12 | 90.55 % | 0.4028 | 88.40 % | 0.5033 |
 | **Fase 2: Fine-Tuning (Mejor Época)** | 13 | 84.70 % | 0.6145 | **88.52 %** | **0.4974** |
 | **Fase 2: Fine-Tuning (Parada Temprana)** | 17 | 89.28 % | 0.4701 | 87.53 % | 0.4983 |
-| **Evaluación Final en Test (Datos Ciegos)** | — | — | — | **89.75 %** | **0.4811** |
+| **Evaluación Final en Test** | — | — | — | **89.75 %** | **0.4811** |

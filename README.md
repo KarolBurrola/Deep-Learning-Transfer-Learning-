@@ -24,7 +24,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 * **Dataset Estratificado:**
 * **Entrenamiento (70%):** 3,779 imágenes (Promedio: 42 fotos/clase).
 * **Validación (15%):** 810 imágenes (Promedio: 9 fotos/clase).
-* **Prueba / Test (15%):** 810 imágenes (Promedio: 9 fotos/clase).
+* **Prueba (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 
 ![Muestra de Clases](muestra_clases_animales.png)
 

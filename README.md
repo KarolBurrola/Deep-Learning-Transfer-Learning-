@@ -6,7 +6,7 @@
 [![Cluster](https://img.shields.io/badge/Entrenado%20en-Clúster%20YUCA%20(UNISON)-005A9C)](http://acarus.uson.mx/)
 [![Netlify](https://img.shields.io/badge/Despliegue-Netlify-00C7B7?logo=netlify&logoColor=white)](https://superb-marzipan-f3e0b5.netlify.app)
 
-Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del reino animal** utilizando **Transferencia de Aprendizaje** con la arquitectura **MobileNetV2**. El entrenamiento se llevó a cabo en el **Clúster YUCA** y el modelo resultante fue desplegado en la web mediante **TensorFlow.js** y optimizado para dispositivos móviles con **TensorFlow Lite**.
+Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de animales** utilizando **Transferencia de Aprendizaje** con la arquitectura **MobileNetV2**. El entrenamiento se llevó a cabo en el **Clúster YUCA** y el modelo resultante fue desplegado en la web mediante **TensorFlow.js** y optimizado para dispositivos móviles con **TensorFlow Lite**.
 
 ---
 
@@ -26,7 +26,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del rein
 * **Validación (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 * **Prueba / Test (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 
-![Muestra de Clases](Deep-Learning-Transfer-Learning-/muestra_clases_animales.png)
+![Muestra de Clases](muestra_clases_animales.png)
 
 ---
 

@@ -46,7 +46,7 @@ Se utilizó **MobileNetV2** preentrenada en ImageNet, combinada con una cabeza d
 ### Fases de Entrenamiento:
 
 * **Fase 1: Extracción de Características (*Feature Extraction*):**  
-  Base convolucional completamente congelada. Optimizador Adam con tasa de aprendizaje estándar ($\alpha = 10^{-3}$), función de pérdida `sparse_categorical_crossentropy` y callback `EarlyStopping` con paciencia de 4 épocas.
+  Base convolucional completamente congelada. Optimizador Adam con tasa de aprendizaje estándar ($10^{-3}$), función de pérdida `sparse_categorical_crossentropy` y callback `EarlyStopping` con paciencia de 4 épocas.
 * **Fase 2: Ajuste Fino (*Fine-Tuning*):**  
   Descongelado parcial de las últimas 54 capas convolucionales (a partir de la capa 100). Optimizador Adam con una tasa de aprendizaje reducida ($10^{-5}$) para no destruir los pesos preentrenados y afinar detalles específicos de las especies.
 

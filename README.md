@@ -1,4 +1,4 @@
-# 🐾 Clasificación de 90 especies de animales mediante Transfer Learning (MobileNetV2) y Fine-Tuning 🐾
+# 🐾 Clasificación de 90 especies de animales mediante Transfer Learning 🐾
 # Alumna: Karol Burrola Torres
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -13,7 +13,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 ## Enlaces del Proyecto
 
 * **Aplicación Web en Vivo (Netlify):** [https://superb-marzipan-f3e0b5.netlify.app](https://superb-marzipan-f3e0b5.netlify.app)
-* **Artículo explicativo en Medium:** [...]
+* **Artículo explicativo en Medium:** [https://medium.com/@karolburrola02/cnns-clasificaci%C3%B3n-de-especies-de-animales-con-transfer-learning-7fe34e39166f?sharedUserId=karolburrola02]
 
 ---
 

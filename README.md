@@ -32,7 +32,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 
 ## Arquitectura y Metodología de Entrenamiento
 
-Se utilizó **MobileNetV2** preentrenada en ImageNet, combinada con una cabeza densa personalizada:
+Se utilizó **MobileNetV2** preentrenada en ImageNet, combinada con capas densas personalizadas:
 
 1. **Aumento de Datos (*Data Augmentation*):** Capas de `RandomFlip`, `RandomRotation(0.15)`, `RandomZoom(0.1)` y `RandomContrast(0.1)` para mitigar el sobreajuste.
 2. **Arquitectura del modelo:**

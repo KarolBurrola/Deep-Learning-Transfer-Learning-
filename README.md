@@ -12,8 +12,8 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del rein
 
 ## Enlaces del Proyecto
 
-* 🌐 **Aplicación Web en Vivo (Netlify):** [https://superb-marzipan-f3e0b5.netlify.app](https://superb-marzipan-f3e0b5.netlify.app)
-* 📖 **Artículo explicativo en Medium:** [...]
+* **Aplicación Web en Vivo (Netlify):** [https://superb-marzipan-f3e0b5.netlify.app](https://superb-marzipan-f3e0b5.netlify.app)
+* **Artículo explicativo en Medium:** [...]
 
 ---
 
@@ -22,9 +22,9 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del rein
 * **Fuente:** [Animal Image Dataset (90 Different Animals) en Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals).
 * **Volumen de datos:** 5,399 imágenes fotográficas reales distribuidas de forma balanceada (~60 fotos por clase).
 * **Dataset Estratificado:**
-* 🟢 **Entrenamiento (70%):** 3,779 imágenes (Promedio: 42 fotos/clase).
-* 🟡 **Validación (15%):** 810 imágenes (Promedio: 9 fotos/clase).
-* 🔵 **Prueba / Test (15%):** 810 imágenes (Promedio: 9 fotos/clase).
+* **Entrenamiento (70%):** 3,779 imágenes (Promedio: 42 fotos/clase).
+* **Validación (15%):** 810 imágenes (Promedio: 9 fotos/clase).
+* **Prueba / Test (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 
 ![Muestra de Clases](outputs/muestra_clases_animales.png)
 

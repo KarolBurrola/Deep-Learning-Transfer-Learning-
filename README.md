@@ -17,6 +17,23 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 
 ---
 
+## Estructura del Proyecto
+└── Transfer-learning-animals/
+    ├── animales.yml
+    ├── animales.py
+    ├── script.slrm
+    └── outputs/
+        ├── grafica_acc_animales.png
+        ├── grafica_loss_animales.png
+        ├── matriz_de_confusion_animales.png
+        ├── muestra_clases_animales.png
+        ├── aumento_de_datos.png
+        └── animals_model.tflite   
+├── README.md
+├── muestra_clases_animales.png
+
+---
+
 ## Dataset y Preprocesamiento
 
 * **Fuente:** [Animal Image Dataset (90 Different Animals) en Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals).

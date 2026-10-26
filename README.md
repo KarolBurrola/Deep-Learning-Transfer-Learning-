@@ -26,7 +26,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes del rein
 * **Validación (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 * **Prueba / Test (15%):** 810 imágenes (Promedio: 9 fotos/clase).
 
-![Muestra de Clases](Deep-Learning-Transfer-Learning/muestra_clases_animales.png)
+![Muestra de Clases](Deep-Learning-Transfer-Learning-/muestra_clases_animales.png)
 
 ---
 

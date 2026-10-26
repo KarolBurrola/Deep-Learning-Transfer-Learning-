@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --account=curso04
-#SBATCH --nodes=1            # numero de nodos (maximo 10)
-#SBATCH --job-name=animales  # nombre del job
-#SBATCH --ntasks=1           # número de procesos que se requieran
-#SBATCH --cpus-per-task=4    # 4 núcleos CPU para cargar imágenes rápido
-#SBATCH --gres=gpu:1         # <--- SOLICITA 1 TARJETA GPU FÍSICA
-#SBATCH --mem=32G            # <--- TE DA 32 GB DE RAM (EVITA EL OOM KILLED)
-#SBATCH --time=3:00:00       # tiempo de ejecucion (maximo 168 hrs)
-#SBATCH --partition=gpu      # cola gpu
+#SBATCH --nodes=1            
+#SBATCH --job-name=animales 
+#SBATCH --ntasks=1          
+#SBATCH --cpus-per-task=4   
+#SBATCH --gres=gpu:1        
+#SBATCH --mem=32G            
+#SBATCH --time=3:00:00       
+#SBATCH --partition=gpu      
 
 echo "Redes neuronales"
 source activate animales

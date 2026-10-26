@@ -35,8 +35,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 Se utilizó **MobileNetV2** preentrenada en ImageNet, combinada con una cabeza densa personalizada:
 
 1. **Aumento de Datos (*Data Augmentation*):** Capas de `RandomFlip`, `RandomRotation(0.15)`, `RandomZoom(0.1)` y `RandomContrast(0.1)` para mitigar el sobreajuste.
-2. **Reescalado de Píxeles:** Normalización matemática al intervalo $[-1, 1]$ mediante `preprocess_input`.
-3. **Cabeza de Clasificación:**
+2. **Arquitectura del modelo:**
    * `GlobalAveragePooling2D` (reducción espacial a 1280 dimensiones).
    * `BatchNormalization` y `Dropout(0.3)`.
    * Capa densa intermedia `Dense(256)` con activación ReLU, regularización L2 (`1e-4`) e inicialización HeNormal.
@@ -66,5 +65,5 @@ Los scripts generan por ejecución en la carpeta `outputs/`:
 | **Fase 1: Feature Extraction (Inicio)** | 1 | 40.33 % | 2.9156 | 78.02 % | 1.4302 |
 | **Fase 1: Feature Extraction (Final)** | 12 | 90.55 % | 0.4028 | 88.40 % | 0.5033 |
 | **Fase 2: Fine-Tuning (Mejor Época)** | 13 | 84.70 % | 0.6145 | **88.52 %** | **0.4974** |
-| **Fase 2: Fine-Tuning (Parada Temprana)** | 17 | 89.28 % | 0.4701 | 87.53 % | 0.4983 |
+| **Fase 2: Fine-Tuning (Early Stopping)** | 17 | 89.28 % | 0.4701 | 87.53 % | 0.4983 |
 | **Evaluación Final en Test** | — | — | — | **89.75 %** | **0.4811** |

@@ -18,6 +18,7 @@ Proyecto de *Redes Neuronales* para clasificar **90 especies diferentes de anima
 ---
 
 ## Estructura del Proyecto
+.
 └── Transfer-learning-animals/
     ├── animales.yml
     ├── animales.py
